@@ -3,85 +3,85 @@ body {
   padding: 0;
 }
 
-.icon i{
-  margin: 0 10px 0 10px;
-}
-.phone_head{
+.icon i {
   margin: 0 10px 0 10px;
 }
 
-.header_container_dark{
+.phone_head {
+  margin: 0 10px 0 10px;
+}
+
+.header_container_dark {
   background-color: rgb(37, 37, 37);
   color: rgb(236, 230, 255);
- padding: 0 50px;
+  padding: 0 50px;
 }
 
-.login_signup_container{
+.login_signup_container {
   display: flex;
   justify-content: flex-end;
   /* flex direction style */
 }
 
-.login_signup_container button{
+.login_signup_container button {
   background: none;
   border: none;
   color: rgb(236, 230, 255);
 
 }
 
-.custom-link-nav .nav-link{
-color: rgb(37, 37, 37);
-padding: 0 10px;
-border-right: 1px solid rgb(37,37,37);
+.custom-link-nav .nav-link {
+  color: rgb(37, 37, 37);
+  padding: 0 10px;
+  border-right: 1px solid rgb(37, 37, 37);
 }
 
 
-.custom-link-nav .nav-item:last-child .nav-link
-{
-border: none;
+.custom-link-nav .nav-item:last-child .nav-link {
+  border: none;
 }
 
 
-.custom-link-nav{
+.custom-link-nav {
   width: 100%;
-height: 100%;
-justify-content: center;
+  height: 100%;
+  justify-content: center;
   align-items: center;
 }
 
-.nav-custom .custom-logo{
+.nav-custom .custom-logo {
   height: 93.2px;
 
 }
 
-.custom-align{
+.custom-align {
 
   display: flex;
-justify-content: center;
+  justify-content: center;
   align-items: center;
   height: 100%;
 
 }
 
-.custom-btn-donate{
-  height:43px;
+.custom-btn-donate {
+  height: 43px;
   margin-top: 21px;
   border-radius: 30px;
 }
 
-.nav-custom{
-  padding:5px 50px;
+.nav-custom {
+  padding: 5px 50px;
 }
 
-.hero-img-custom{
+.hero-img-custom {
   height: 393px;
-background-image:url("./resources/images/hero_image.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+  background-image: url("./resources/images/hero_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.hero-heading{
+.hero-heading {
 
   position: absolute;
   top: 40px;
@@ -91,49 +91,52 @@ position: relative;
 }
 
 
-.hero-footer{
+.hero-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+
   /* background-color: pink;
   opacity: .4; */
 
   background-color: rgba(253, 196, 205, 0.4);
 }
 
-.banner-1-custom{
+.banner-1-custom {
   height: 300px;
   background-color: #ed9915;
-color: rgb(236, 230, 255); 
-display: flex;
-flex-direction: column;
-padding:0 150px;
-text-align: center;
-align-items: center;
-justify-content: center;
+  color: rgb(236, 230, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 0 150px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.banner-1-custom span{
-margin: 15px 0;
+.banner-1-custom span,.line2 {
+  margin: 15px 0;
   width: 50px;
   height: 1px;
-border-top: 5px solid #fff;
+  border-top: 5px solid #fff;
 
 }
 
-.donate-conatiner{
+.donate-conatiner {
   /* height: 300px; */
 }
-.circle-div-container{
-position: relative;
-height: 300px;
-width: 809px;
+
+.circle-div-container {
+  position: relative;
+  height: 300px;
+  width: 809px;
 
 }
-.circular-div{
+
+.circular-div {
   height: 200px;
   width: 200px;
-  
+
   color: #000;
   display: flex;
   justify-content: center;
@@ -145,17 +148,18 @@ width: 809px;
   top: 20%;
 }
 
-.circular-div span{
+.circular-div span {
   text-align: center;
 }
 
 
-.circular-div.cr1{
+.circular-div.cr1 {
 
 
   left: 21%;
 }
-.circular-div.cr2{
+
+.circular-div.cr2 {
   background-color: blue;
   left: 43%;
   color: #fff;
@@ -163,22 +167,116 @@ width: 809px;
   z-index: 2;
 
 }
-.circular-div.cr3{
+
+.circular-div.cr3 {
 
   left: 64%;
 
 
 }
 
-.donate-info-btn-con .btn{
+.donate-info-btn-con .btn {
   border-radius: 30px;
   height: 30px;
   width: 120px;
   font-size: 14px;
   margin: 0 10px;
 }
-.donate-info-btn-con{
+
+.donate-info-btn-con {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.custom-misc-h1-1 span{
+  color: #02b24f;
+}
+
+.custom-logo-misc{
+  width: 70px;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.line2{
+margin: 15px auto;
+border-color: #02b24f;
+
+}
+
+.custom-card-btn{
+  background-color: rgb(236, 230, 255);
+  color: #02b24f;
+  border: none;
+}
+.custom-card-btn:hover{
+  background-color: rgb(207, 204, 214);
+  color: #02b24f;
+  border: none;
+  
+}
+
+.custom-card-img{
+  padding: 0;
+}
+
+.custom-card-img img{
+  max-height: 400px;
+}
+
+.card-1-custom-con{
+  max-width:724px;
+  margin: 0 auto;
+}
+
+.heignt-creator{
+  height: 205px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #02b24f;
+}
+
+.bar-chart{
+width: 45px;
+display: flex;
+flex-direction: column-reverse;
+background-color: aqua;
+position: relative;
+border-radius: 5px;
+}
+
+
+.bar-chart p {
+white-space: nowrap;
+
+  transform: rotate(-90deg);
+}
+.bar-chart div {
+position: absolute;
+top: -20px;
+left: 12px;
+}
+
+.con-chart{
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.custom-misc-2-con-chart{
+  padding: 40px 150px;
+  background-color: #f6f5f3;
+}
+
+.cuystom-card-2 .card-img-top{
+  max-height: 230px;
+}
+
+.cuystom-card-2 .card-title{
+  font-size: 15px;
+}
+.cuystom-card-2 .card-text{
+padding: 5px;
+  font-size: 10px;
 }
