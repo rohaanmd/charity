@@ -280,3 +280,41 @@ left: 12px;
 padding: 5px;
   font-size: 10px;
 }
+
+
+.form-icon{
+position: relative;  
+}
+
+.form-icon i{
+  position: absolute;
+  left: 5px;
+  top: 16%;
+
+}
+
+.form-icon input{
+  padding: 0 0 0 30px;
+}
+
+.pill{
+  border-radius: 30px;
+}
+
+.transaprent-kid{
+  position: absolute;
+  max-width: 311px;
+  right: 68px;
+  top: 0;
+}
+
+
+.slider-image-team{
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+
+/* .custom-misc-3-con-chart{
+  background-color: #f6f5f3;
+} */

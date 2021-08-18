@@ -8,12 +8,15 @@ import MiscHd1 from "./components/misc_component/header1";
 import Card1 from "./components/card/card1";
 import InfoBanner from "./components/misc_component/listing_react"
 import Card2 from "./components/card/card2"
+import Form from "./components/contactus/index";
+import Teamslider from "./components/misc_component/teamslider";
+import StateLearn from "./components/learnState/stateLearn";
 
 
 function App() {
 	return (
 		<div className="App">
-			<Header className="kuch" />
+			{/* <Header className="kuch" />
 			<Navbar />
 			<Hero />
 			<Banner1 />
@@ -22,6 +25,25 @@ function App() {
 			<Card1 />
       <InfoBanner />
 	  <Card2 />
+	  <Form />
+	  <Teamslider /> */}
+<StateLearn />
+
+
+
+
+	  
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+	  
 		</div>
 	);
 }

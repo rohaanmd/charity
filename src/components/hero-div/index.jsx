@@ -11,8 +11,8 @@ export default function Main() {
 				</h1>
 
 				<button
-					className="btn btn-outline-dark"
-					style={{ borderRadius: "30px" }}
+					className="btn btn-outline-dark pill"
+					
 				>
 					{" "}
 					GET STARTED

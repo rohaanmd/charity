@@ -34,7 +34,7 @@ export default function Card2() {
         <div>
             <div className="row">
                 <div className="col-12">
-                <div className="d-flex">
+                <div className="d-flex justify-content-around">
 
 {/* normal coder */}
 

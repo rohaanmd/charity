@@ -22,8 +22,8 @@ export default function Listing_react() {
 					</ul>
 
 					<button
-						className="btn btn-primary"
-						style={{ backgroundColor: "#ff6302", borderRadius: "30px" }}
+						className="btn btn-primary pill"
+						style={{ backgroundColor: "#ff6302"}}
 					>
 						DONATE ABHI
 					</button>
