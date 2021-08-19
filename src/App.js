@@ -11,7 +11,7 @@ import Card2 from "./components/card/card2"
 import Form from "./components/contactus/index";
 import Teamslider from "./components/misc_component/teamslider";
 import StateLearn from "./components/learnState/stateLearn";
-
+import FormTest from "./components/form_in_depth/form"
 
 function App() {
 	return (
@@ -27,7 +27,9 @@ function App() {
 	  <Card2 />
 	  <Form />
 	  <Teamslider /> */}
-<StateLearn />
+{/* <StateLearn /> */}
+
+<FormTest />
 
 
 
