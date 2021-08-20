@@ -12,7 +12,7 @@ import Form from "./components/contactus/index";
 import Teamslider from "./components/misc_component/teamslider";
 import StateLearn from "./components/learnState/stateLearn";
 import FormTest from "./components/form_in_depth/form"
-
+import AxiosFile from "./components/INFORMATION ABOUT CONCEPT/AxiosFile";
 function App() {
 	return (
 		<div className="App">
@@ -29,9 +29,9 @@ function App() {
 	  <Teamslider /> */}
 {/* <StateLearn /> */}
 
-<FormTest />
+{/* <FormTest /> */}
 
-
+<AxiosFile />
 
 
 	  

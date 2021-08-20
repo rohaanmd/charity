@@ -318,3 +318,18 @@ position: relative;
 /* .custom-misc-3-con-chart{
   background-color: #f6f5f3;
 } */
+
+
+.checkMedia{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width:375px){
+
+  .checkMedia{
+    display: inline-block;
+
+  }
+
+}

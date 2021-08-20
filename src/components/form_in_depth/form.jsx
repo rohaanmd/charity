@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { roles } from "aria-query";
 
 export default function Form() {
 	// const [Var,setVar] = useState({dataType:"anything"});
-	const [FormData, setFormData] = useState({});
+	const [FormData, setFormData] = useState({}); 
+	//  form user se lene ke liye
 	const [ResData, setResData] = useState(null);
+	// user ko dikhane ke liye
 	const [Errors, setErrors] = useState(null);
+	// user ko error dikhane ke liye
 
 	const Login = () => {
 		// REST API METHODS
@@ -22,6 +24,9 @@ export default function Form() {
 		// axios.post(url,{json body or multipart form},{header})
 		// axios.put(url,{json body or multipart form},{header})
 		// axios.delete(url,{headers})
+
+// async/await
+
 
 		axios
 			.post("https://reqres.in/api/users/", FormData)
@@ -65,6 +70,7 @@ export default function Form() {
 		// var vari ="namewweww"
 
 		var Obj = {
+			
 			...FormData,
 
 			[e.target.name]: e.target.value,
