@@ -10,9 +10,9 @@ import InfoBanner from "./components/misc_component/listing_react";
 import Card2 from "./components/card/card2";
 import Form from "./components/contactus/index";
 import Teamslider from "./components/misc_component/teamslider";
-import StateLearn from "./components/learnState/stateLearn";
-import FormTest from "./components/form_in_depth/form";
-import AxiosFile from "./components/INFORMATION ABOUT CONCEPT/AxiosFile";
+// import StateLearn from "./components/learnState/stateLearn";
+// import FormTest from "./components/form_in_depth/form";
+// import AxiosFile from "./components/INFORMATION ABOUT CONCEPT/AxiosFile";
 function App() {
 	return (
 		<div className="App">
