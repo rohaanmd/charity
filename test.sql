@@ -1,3 +1,10 @@
+-- https://www.mycompiler.io/new/sql?fork=Cv3MAuy
+-- link for online compiler
+
+
+
+
+
 create table Table1 (id integer PRIMARY KEY ,name varchar(10),place varchar(10),dob date,phNumber int UNIQUe ,marks int );
 -- table create  name (col1,col2)
 -- integer || int
