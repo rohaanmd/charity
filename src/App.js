@@ -27,7 +27,7 @@ function App() {
 	  <Card2 />
 	  <Form />
 	  <Teamslider /> */}
-{/* <StateLearn /> */}
+<StateLearn />
 
 {/* <FormTest /> */}
 
