@@ -1,7 +1,12 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 import Logo  from "../../resources/images/logo.svg"
 
 export default function Navbar() {
+
+var {name} = useParams() ;
+
+console.log({name});
     return (
         <div className="row nav-custom">
             <div className="col-2">
@@ -40,6 +45,8 @@ export default function Navbar() {
             <div className="col-2 h-100 btn-div-header">
 
 <button className="btn btn-success btn-lg custom-btn-donate">DONATE US</button>
+
+welcome {name}
 
             </div>
         </div>
